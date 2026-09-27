@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projets perso — Cody Lai Tham</title>
+  <meta name="description" content="Projets personnels de Cody Lai Tham : affiches, identités visuelles, édition, photographie et audiovisuel.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Aller au contenu</a>
+
+  <svg class="svg-defs" aria-hidden="true" focusable="false">
+    <filter id="duo-pink" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values=".2126 .7152 .0722 0 0 .2126 .7152 .0722 0 0 .2126 .7152 .0722 0 0 0 0 0 1 0"/><feComponentTransfer><feFuncR type="table" tableValues=".80 .99"/><feFuncG type="table" tableValues=".39 .93"/><feFuncB type="table" tableValues=".54 .95"/></feComponentTransfer></filter>
+    <filter id="duo-mint" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values=".2126 .7152 .0722 0 0 .2126 .7152 .0722 0 0 .2126 .7152 .0722 0 0 0 0 0 1 0"/><feComponentTransfer><feFuncR type="table" tableValues=".33 .91"/><feFuncG type="table" tableValues=".63 .97"/><feFuncB type="table" tableValues=".55 .94"/></feComponentTransfer></filter>
+  </svg>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">Cody Lai Tham<span>.</span></a>
+      <nav class="nav" aria-label="Navigation principale">
+        <a class="pill" href="index.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg>Accueil</a>
+        <a class="pill" href="profil.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>Profil MMI</a>
+        <a class="pill is-active" href="projets.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>Projets</a>
+        <a class="pill" href="contact.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap">
+      <div class="hero__title reveal">
+        <h1 class="mega">Perso<span class="dot">.</span></h1>
+        <div class="hero__meta">
+          <p>Graphisme · Photographie · Audiovisuel</p>
+          <strong>Hors cours</strong>
+        </div>
+      </div>
+      <nav class="switch reveal" aria-label="Type de projets">
+        <a href="sae.html"><span class="swatch" style="background: var(--mint)"></span>SAÉ — cours</a>
+        <a href="perso.html" aria-current="page"><span class="swatch" style="background: var(--pink)"></span>Projets perso</a>
+      </nav>
+      <p class="lead hero__intro reveal">Ce que je crée par moi-même, pour m’entraîner, tester des styles et développer mon œil. Cliquez sur une image pour l’agrandir.</p>
+    </section>
+
+    <nav class="subnav subnav--pink" aria-label="Aller à une catégorie">
+      <div class="wrap">
+        <a href="#affiches">01 — Affiches</a>
+        <a href="#identites">02 — Identités visuelles</a>
+        <a href="#edition">03 — Édition</a>
+        <a href="#photo">04 — Photographie</a>
+        <a href="#video">05 — Audiovisuel</a>
+      </div>
+    </nav>
+
+    <div class="wrap">
+
+      <!-- ============ 01 Affiches ============ -->
+      <section class="perso-block" id="affiches" aria-labelledby="t-affiches">
+        <div class="section-head reveal">
+          <p class="num" aria-hidden="true">01.</p>
+          <div class="section-head__text">
+            <h2 class="h2" id="t-affiches">Affiches</h2>
+            <p>Portraits d’artistes, sport automobile et publicité produit&nbsp;: typographie expressive et compositions fortes.</p>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project__info reveal">
+            <p class="kicker">Série · Musique</p>
+            <h3 class="h3">Portraits d’artistes</h3>
+            <p>Trois affiches autour d’artistes rap&nbsp;: un titre typographique massif, un portrait détouré et une citation en pied de page.</p>
+            <ul class="tags tags--pink"><li>Typographie</li><li>Portrait</li><li>Composition</li></ul>
+          </div>
+          <div class="gallery gallery--3 reveal">
+            <figure class="shot shot--poster"><button type="button" data-full="img/affiche-arma-jackson.jpg" data-group="artistes"><img src="img/affiche-arma-jackson.jpg" alt="Affiche Arma Jackson : portrait sur fond de motifs noir et crème" loading="lazy"></button><figcaption>Arma Jackson</figcaption></figure>
+            <figure class="shot shot--poster"><button type="button" data-full="img/affiche-guy2bezbar.jpg" data-group="artistes"><img src="img/affiche-guy2bezbar.jpg" alt="Affiche Guy2Bezbar : portrait sur fond orange" loading="lazy"></button><figcaption>Guy2Bezbar</figcaption></figure>
+            <figure class="shot shot--poster"><button type="button" data-full="img/affiche-houdi.jpg" data-group="artistes"><img src="img/affiche-houdi.jpg" alt="Affiche Houdi : artiste au micro, titre géant rose" loading="lazy"></button><figcaption>Houdi</figcaption></figure>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project__info reveal">
+            <p class="kicker">Série · Déclinaisons</p>
+            <h3 class="h3">JOLAGREEN23 — Coming soon</h3>
+            <p>Une affiche d’annonce déclinée en plusieurs couleurs, et un visuel alternatif en vert.</p>
+            <ul class="tags tags--pink"><li>Déclinaison</li><li>Mise en page</li><li>Couleur</li></ul>
+          </div>
+          <div class="gallery gallery--4 reveal">
+            <figure class="shot shot--poster"><button type="button" data-full="img/jola-bw.jpg" data-group="jola"><img src="img/jola-bw.jpg" alt="Affiche JOLAGREEN23 Coming soon, version noir et blanc" loading="lazy"></button><figcaption>Noir &amp; blanc</figcaption></figure>
+            <figure class="shot shot--poster"><button type="button" data-full="img/jola-green.jpg" data-group="jola"><img src="img/jola-green.jpg" alt="Affiche JOLAGREEN23 Coming soon, version verte" loading="lazy"></button><figcaption>Vert</figcaption></figure>
+            <figure class="shot shot--poster"><button type="button" data-full="img/jola-red.jpg" data-group="jola"><img src="img/jola-red.jpg" alt="Affiche JOLAGREEN23 Coming soon, version rouge" loading="lazy"></button><figcaption>Rouge</figcaption></figure>
+            <figure class="shot shot--poster"><button type="button" data-full="img/jola-green2.jpg" data-group="jola"><img src="img/jola-green2.jpg" alt="Visuel JOLAGREEN23, portrait main sur le visage, dominante verte" loading="lazy"></button><figcaption>Visuel alternatif</figcaption></figure>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project__info reveal">
+            <p class="kicker">Auto · Produit</p>
+            <h3 class="h3">Porsche 718 &amp; Fixion</h3>
+            <p>Une affiche automobile pour la Porsche 718 Cayman GT4 RS, et une publicité produit pour un ruban adhésif&nbsp;: «&nbsp;Compact. Solide. Nomade.&nbsp;»</p>
+            <ul class="tags tags--pink"><li>Composition</li><li>Publicité</li></ul>
+          </div>
+          <div class="gallery gallery--2 reveal">
+            <figure class="shot shot--poster"><button type="button" data-full="img/affiche-718.jpg" data-group="auto"><img src="img/affiche-718.jpg" alt="Affiche Porsche 718 GT4 RS, voiture grise sur bande diagonale" loading="lazy"></button><figcaption>Porsche 718 GT4 RS</figcaption></figure>
+            <figure class="shot shot--poster"><button type="button" data-full="img/affiche-fixion.jpg" data-group="auto"><img src="img/affiche-fixion.jpg" alt="Affiche Fixion : Compact, solide, nomade, dévidoir de ruban adhésif sur fond bleu" loading="lazy"></button><figcaption>Fixion — ruban adhésif</figcaption></figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 02 Identités ============ -->
+      <section class="perso-block" id="identites" aria-labelledby="t-identites">
+        <div class="section-head reveal">
+          <p class="num" aria-hidden="true">02.</p>
+          <div class="section-head__text">
+            <h2 class="h2" id="t-identites">Identités visuelles</h2>
+            <p>Logos et déclinaisons sur plusieurs supports, du format réseau social au kakémono.</p>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project__info reveal">
+            <p class="kicker">Identité · Déclinaisons</p>
+            <h3 class="h3">Golden Wheel Racing School</h3>
+            <p>Une identité pour une école de pilotage, portée par l’accroche «&nbsp;Coach me if you can&nbsp;»&nbsp;: bannière, post Instagram, affiche A4 et kakémono.</p>
+            <ul class="tags tags--pink"><li>Bannière</li><li>Instagram</li><li>Print A4</li><li>Kakémono</li></ul>
+          </div>
+          <div class="gallery gallery--4 reveal">
+            <figure class="shot shot--span2" style="grid-column: 1 / -1"><button type="button" data-full="img/gw-banner.jpg" data-group="gw"><img src="img/gw-banner.jpg" alt="Bannière Golden Wheel Racing School" loading="lazy"></button><figcaption>Bannière</figcaption></figure>
+            <figure class="shot shot--span2"><button type="button" data-full="img/gw-ig.jpg" data-group="gw"><img src="img/gw-ig.jpg" alt="Post Instagram Golden Wheel" loading="lazy"></button><figcaption>Post Instagram</figcaption></figure>
+            <figure class="shot"><button type="button" data-full="img/gw-a4.jpg" data-group="gw"><img src="img/gw-a4.jpg" alt="Affiche A4 Golden Wheel" loading="lazy"></button><figcaption>Affiche A4</figcaption></figure>
+            <figure class="shot"><button type="button" data-full="img/gw-kakemono.jpg" data-group="gw"><img src="img/gw-kakemono.jpg" alt="Kakémono Golden Wheel" loading="lazy" style="aspect-ratio: 1 / 1.414; object-fit: cover; object-position: top"></button><figcaption>Kakémono</figcaption></figure>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project__info reveal">
+            <p class="kicker">Logotype</p>
+            <h3 class="h3">Authentik</h3>
+            <p>Création d’un logotype&nbsp;: recherche du monogramme «&nbsp;A&nbsp;» puis version complète avec le nom.</p>
+            <ul class="tags tags--pink"><li>Logotype</li><li>Monogramme</li></ul>
+          </div>
+          <div class="gallery gallery--3 reveal">
+            <figure class="shot shot--logo"><button type="button" data-full="img/authentik-logo.jpg" data-group="authentik"><img src="img/authentik-logo.jpg" alt="Logo Authentik, version complète" loading="lazy"></button><figcaption>Version complète</figcaption></figure>
+            <figure class="shot shot--logo"><button type="button" data-full="img/authentik-v1.jpg" data-group="authentik"><img src="img/authentik-v1.jpg" alt="Monogramme Authentik, piste 1" loading="lazy"></button><figcaption>Monogramme — piste 1</figcaption></figure>
+            <figure class="shot shot--logo"><button type="button" data-full="img/authentik-v2.jpg" data-group="authentik"><img src="img/authentik-v2.jpg" alt="Monogramme Authentik, piste 2" loading="lazy"></button><figcaption>Monogramme — piste 2</figcaption></figure>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project__info reveal">
+            <p class="kicker">Charte · Événement</p>
+            <h3 class="h3">Aura — concours d’éloquence</h3>
+            <p>Planche de présentation d’une identité pour un concours d’éloquence&nbsp;: chevalet, brandboard, goodies, affiche, t-shirts, invitation et carte de remerciements.</p>
+            <ul class="tags tags--pink"><li>Brandboard</li><li>Goodies</li><li>Print</li></ul>
+          </div>
+          <div class="reveal">
+            <figure class="shot"><button type="button" data-full="img/planche-aura.jpg"><img src="img/planche-aura.jpg" alt="Planche de présentation de l’identité Aura, concours d’éloquence" loading="lazy"></button><figcaption>Planche de présentation</figcaption></figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 03 Édition ============ -->
+      <section class="perso-block" id="edition" aria-labelledby="t-edition">
+        <div class="section-head reveal">
+          <p class="num" aria-hidden="true">03.</p>
+          <div class="section-head__text">
+            <h2 class="h2" id="t-edition">Édition</h2>
+            <p>Mise en page d’un document de plusieurs dizaines de pages, autour d’un thème fort.</p>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project__info reveal">
+            <p class="kicker">Yearbook · 28 pages</p>
+            <h3 class="h3">Yearbook 2026 — « Les Arcanes du destin »</h3>
+            <p>Maquette du yearbook de l’IUT de Nouvelle-Calédonie sur le thème du tarot&nbsp;: nuit étoilée, ornements dorés et une carte d’arcane par personne. Pages présentées ici&nbsp;: couverture, deux doubles pages intérieures et quatrième de couverture.</p>
+            <ul class="tags tags--pink"><li>Direction artistique</li><li>Mise en page</li><li>Typographie</li></ul>
+          </div>
+          <div class="gallery gallery--4 reveal">
+            <figure class="shot"><button type="button" data-full="img/yearbook-cover.jpg" data-group="yearbook"><img src="img/yearbook-cover.jpg" alt="Couverture du Yearbook 2026 de l’IUT de Nouvelle-Calédonie" loading="lazy"></button><figcaption>Couverture</figcaption></figure>
+            <figure class="shot shot--span2"><button type="button" data-full="img/yearbook-spread-1.jpg" data-group="yearbook"><img src="img/yearbook-spread-1.jpg" alt="Double page Personnels IUT du yearbook" loading="lazy"></button><figcaption>Double page — Personnels IUT</figcaption></figure>
+            <figure class="shot"><button type="button" data-full="img/yearbook-back.jpg" data-group="yearbook"><img src="img/yearbook-back.jpg" alt="Quatrième de couverture du yearbook : Les Arcanes du destin" loading="lazy"></button><figcaption>Quatrième de couverture</figcaption></figure>
+            <figure class="shot shot--span2" style="grid-column: 2 / span 2"><button type="button" data-full="img/yearbook-spread-2.jpg" data-group="yearbook"><img src="img/yearbook-spread-2.jpg" alt="Double page Personnels IUT et Chef de département MMI du yearbook" loading="lazy"></button><figcaption>Double page — Chef de département MMI</figcaption></figure>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Bandeau photo -->
+    <section class="band" aria-label="Photographie">
+      <div class="band__bg"><img class="duo-pink" src="img/photo-02.jpg" alt="" loading="lazy"></div>
+      <div class="band__pills">
+        <span class="pill"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7l2-3h4l2 3"/><circle cx="12" cy="13.5" r="3.5"/></svg>Photographie</span>
+        <span class="pill"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>Lumière</span>
+      </div>
+      <div class="wrap band__inner">
+        <p class="quote reveal"><span class="q">“</span>&nbsp;ISO, focale, lumière.&nbsp;<span class="q">”</span></p>
+        <div class="band__text reveal"><p>Sport mécanique, architecture et paysages&nbsp;: la photo est le terrain où je teste le cadrage et la lumière avant de les emmener dans mes autres projets.</p></div>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <!-- ============ 04 Photo ============ -->
+      <section class="perso-block" id="photo" aria-labelledby="t-photo" style="border-top: 0">
+        <div class="section-head reveal">
+          <p class="num" aria-hidden="true">04.</p>
+          <div class="section-head__text">
+            <h2 class="h2" id="t-photo">Photographie</h2>
+            <p>Trois séries&nbsp;: sport mécanique, rallye, paysages et architecture.</p>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project__info reveal">
+            <p class="kicker">Série · Sport mécanique</p>
+            <h3 class="h3">Supermotard</h3>
+            <p>Portraits d’un pilote et de sa moto&nbsp;: contre-plongées sur ciel bleu, détails du carénage et un plan en noir et blanc.</p>
+          </div>
+          <div class="masonry reveal">
+            <figure class="shot"><button type="button" data-full="img/photo-02.jpg" data-group="moto"><img src="img/photo-02.jpg" alt="Pilote casqué debout près de sa moto de supermotard, ciel bleu" loading="lazy"></button></figure>
+            <figure class="shot"><button type="button" data-full="img/photo-01.jpg" data-group="moto"><img src="img/photo-01.jpg" alt="Pilote assis sur sa moto, pins en arrière-plan" loading="lazy"></button></figure>
+            <figure class="shot"><button type="button" data-full="img/photo-04.jpg" data-group="moto"><img src="img/photo-04.jpg" alt="Détail du carénage rouge et noir de la moto" loading="lazy"></button></figure>
+            <figure class="shot"><button type="button" data-full="img/photo-05.jpg" data-group="moto"><img src="img/photo-05.jpg" alt="Silhouette du numéro 69 de la moto en noir et blanc" loading="lazy"></button></figure>
+            <figure class="shot"><button type="button" data-full="img/photo-06.jpg" data-group="moto"><img src="img/photo-06.jpg" alt="Roue avant et carénage de la moto au ras du sol" loading="lazy"></button></figure>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project__info reveal">
+            <p class="kicker">Série · Sport auto</p>
+            <h3 class="h3">Rallye</h3>
+            <p>Au bord de la route&nbsp;: une Subaru en plongée et une voiture dans la poussière.</p>
+          </div>
+          <div class="gallery gallery--2 reveal">
+            <figure class="shot"><button type="button" data-full="img/rallye-01.jpg" data-group="rallye"><img src="img/rallye-01.jpg" alt="Subaru de rallye rouge en plongée sur une route" loading="lazy"></button></figure>
+            <figure class="shot"><button type="button" data-full="img/rallye-02.jpg" data-group="rallye"><img src="img/rallye-02.jpg" alt="Voiture de rallye soulevant de la poussière dans un paysage vert" loading="lazy"></button></figure>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project__info reveal">
+            <p class="kicker">Série · Lumière</p>
+            <h3 class="h3">Paysages &amp; architecture</h3>
+            <p>Façades sous le soleil, lignes de toit, couchers de soleil et reliefs&nbsp;: un travail sur la lumière naturelle et les couleurs.</p>
+          </div>
+          <div class="masonry reveal">
+            <figure class="shot"><button type="button" data-full="img/photo-08.jpg" data-group="paysages"><img src="img/photo-08.jpg" alt="Maison orange sous un ciel bleu" loading="lazy"></button></figure>
+            <figure class="shot"><button type="button" data-full="img/photo-10.jpg" data-group="paysages"><img src="img/photo-10.jpg" alt="Vue plongeante sur une église et la ville" loading="lazy"></button></figure>
+            <figure class="shot"><button type="button" data-full="img/photo-13.jpg" data-group="paysages"><img src="img/photo-13.jpg" alt="Collines verdoyantes sous un ciel nuageux" loading="lazy"></button></figure>
+            <figure class="shot"><button type="button" data-full="img/photo-12.jpg" data-group="paysages"><img src="img/photo-12.jpg" alt="Coucher de soleil rose au-dessus d’un immeuble et d’une piscine" loading="lazy"></button></figure>
+            <figure class="shot"><button type="button" data-full="img/photo-07.jpg" data-group="paysages"><img src="img/photo-07.jpg" alt="Façade orange et balcon sous le soleil" loading="lazy"></button></figure>
+            <figure class="shot"><button type="button" data-full="img/photo-15.jpg" data-group="paysages"><img src="img/photo-15.jpg" alt="Coucher de soleil sur la mer" loading="lazy"></button></figure>
+            <figure class="shot"><button type="button" data-full="img/photo-09.jpg" data-group="paysages"><img src="img/photo-09.jpg" alt="Mur blanc et arbre sur ciel bleu" loading="lazy"></button></figure>
+            <figure class="shot"><button type="button" data-full="img/photo-14.jpg" data-group="paysages"><img src="img/photo-14.jpg" alt="Ville au crépuscule, ciel dégradé" loading="lazy"></button></figure>
+            <figure class="shot"><button type="button" data-full="img/photo-11.jpg" data-group="paysages"><img src="img/photo-11.jpg" alt="Soleil couchant à travers les branches" loading="lazy"></button></figure>
+            <figure class="shot"><button type="button" data-full="img/photo-16.jpg" data-group="paysages"><img src="img/photo-16.jpg" alt="Palmiers et baie, cadre blanc" loading="lazy"></button></figure>
+            <figure class="shot"><button type="button" data-full="img/photo-17.jpg" data-group="paysages"><img src="img/photo-17.jpg" alt="Lignes d’une charpente en contre-plongée, cadre blanc" loading="lazy"></button></figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 05 Audiovisuel ============ -->
+      <!-- Les vidéos pointent vers le dossier « Projets perso/Audiovisuel » (fichiers trop lourds pour être copiés).
+           Pour une mise en ligne : héberge-les sur YouTube / Vimeo et remplace chaque <video> par l'iframe fournie. -->
+      <section class="perso-block" id="video" aria-labelledby="t-video">
+        <div class="section-head reveal">
+          <p class="num" aria-hidden="true">05.</p>
+          <div class="section-head__text">
+            <h2 class="h2" id="t-video">Audiovisuel</h2>
+            <p>Réalisation, cadrage, jeu et montage.</p>
+          </div>
+        </div>
+
+        <article class="video-card reveal">
+          <div class="video-card__frame">
+            <video controls preload="none" playsinline poster="img/poster-bref.jpg" src="../Projets%20perso/Audiovisuel/montage%20bref.mp4">Votre navigateur ne peut pas lire cette vidéo.</video>
+          </div>
+          <div>
+            <p class="kicker">Court métrage · 2025 · 2 min 46</p>
+            <h3 class="h3">Bref. J’ai pas d’amis</h3>
+            <p>Arthur n’a pas d’amis. Il s’en rend compte le jour où il tente d’organiser son anniversaire… seul. Club de lecture, basket, soirée&nbsp;: chaque tentative est un échec. Jusqu’au soir où, seul sur un banc, le nez dans son jeu mobile, il croise un autre joueur.</p>
+            <p>Inspiré du style de la série <em>Bref</em>&nbsp;: rythme rapide, voix off drôle et directe, scènes courtes et une touche d’émotion, pour parler de la solitude.</p>
+            <p class="credits">Réalisation &amp; rôle principal&nbsp;: Cody Lai Tham — avec l’équipe B (BUT MMI 1re année). Scénario, découpage technique et feuille de service réalisés en amont du tournage.</p>
+            <ul class="tags tags--pink"><li>Réalisation</li><li>Jeu</li><li>Scénario</li><li>Découpage</li></ul>
+          </div>
+        </article>
+
+        <article class="video-card reveal">
+          <div class="video-card__frame">
+            <video controls preload="none" playsinline poster="img/poster-a-tort.jpg" src="../Projets%20perso/Audiovisuel/FINAL%20A%20TORT.mp4">Votre navigateur ne peut pas lire cette vidéo.</video>
+          </div>
+          <div>
+            <p class="kicker">Court métrage · 5 min</p>
+            <h3 class="h3">À tort</h3>
+            <p>Un court métrage de fiction de cinq minutes, tourné entre intérieurs et extérieurs, qui joue sur la lumière naturelle et les plans de détail.</p>
+          </div>
+        </article>
+
+        <article class="video-card reveal">
+          <div class="video-card__frame">
+            <video controls preload="none" playsinline poster="img/poster-lettre.jpg" src="../Projets%20perso/Audiovisuel/UNE%20LETTRE%20MYSTERIEUSE.mp4">Votre navigateur ne peut pas lire cette vidéo.</video>
+          </div>
+          <div>
+            <p class="kicker">Court métrage · 1 min 43</p>
+            <h3 class="h3">Une lettre mystérieuse</h3>
+            <p>Un format court de fiction tourné sur le campus de l’IUT, autour d’une mystérieuse lettre.</p>
+          </div>
+        </article>
+
+        <article class="video-card reveal">
+          <div class="video-card__frame">
+            <video controls preload="none" playsinline poster="img/poster-vyns.jpg" src="../Projets%20perso/Audiovisuel/Vyns%20Seconde%20Chance.mp4">Votre navigateur ne peut pas lire cette vidéo.</video>
+          </div>
+          <div>
+            <p class="kicker">Vidéo · 2 min 15</p>
+            <h3 class="h3">Vyns — Seconde Chance</h3>
+            <p>Tournée dans une salle de cinéma, entre sièges rouges, contre-jours et pénombre&nbsp;: une vidéo qui mise sur l’éclairage et l’ambiance.</p>
+          </div>
+        </article>
+      </section>
+
+      <div class="aside-note reveal" style="margin-bottom: clamp(64px, 9vw, 120px)">
+        <p><strong>Envie de voir mes projets de cours&nbsp;?</strong> Les SAÉ sont présentées sur une page à part.</p>
+        <div class="contact-actions" style="margin: 0">
+          <a class="pill pill--mint" href="sae.html">SAÉ — cours <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="pill" href="contact.html">Me contacter</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="footer__big">Cody Lai Tham<span>.</span></p>
+      <div class="footer__cols">
+        <div>
+          <p class="label">pages</p>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="profil.html">Profil MMI</a></li>
+            <li><a href="projets.html">Projets</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="label">projets</p>
+          <ul>
+            <li><a href="sae.html">SAÉ — projets de cours</a></li>
+            <li><a href="perso.html">Projets perso</a></li>
+            <li><a href="profil.html#stage">Stage 2025 — SERITEX</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="label">contact</p>
+          <ul>
+            <li><a href="mailto:codylaitham@gmail.com">codylaitham@gmail.com</a></li>
+            <li><a href="https://www.linkedin.com/in/cody-lai-tham-829333267/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="docs/CV-Cody-Lai-Tham.pdf" target="_blank" rel="noopener">CV (PDF)</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__legal"><span>© <span data-year>2026</span> Cody Lai Tham</span><span>BUT MMI — IUT de Nouvelle-Calédonie</span></p>
+    </div>
+  </footer>
+</body>
+</html>
